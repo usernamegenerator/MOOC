@@ -1,0 +1,51 @@
+Exercise 1-1
+6 points possible (graded)
+For the following explanations of different types of programmatic models, fill in the blank with the appropriate model the definition describes.
+
+A ______ model is one whose behavior is entirely predictable. Every set of variable states is uniquely determined by parameters in the model and by sets of previous states of these variables. Therefore, these models perform the same way for a given set of initial conditions, and it is possible to predict precisely what will happen.
+
+ unsubmitted  deterministic
+A ________ model is one in which randomness is present, and variable states are not described by unique values, but rather by probability distributions. The behavior of this model cannot be entirely predicted.
+
+ unsubmitted  stochastic
+A _______ model does not account for the element of time. In this type of model, a simulation will give us a snapshot at a single point in time.
+
+ unsubmitted  static
+A _______ model does account for the element of time. This type of model often contains state variables that change over time.
+
+ unsubmitted  dynamic
+A _______ model does not take into account the function of time. The state variables change only at a countable number of points in time, abruptly from one state to another.
+
+ unsubmitted  discrete
+A ______ model does take into account the function of time, typically by modelling a function f(t) and the changes reflected over time intervals. The state variables change in an unbroken way through an infinite number of states.
+
+ unsubmitted  continuous
+ Submit Some problems have options such as save, reset, hints, or show answer. These options follow the Submit button.
+
+Show Answer
+Exercise 1-2
+3 points possible (graded)
+If you are using differential equations to model a simulation, are you more likely to be doing a discrete or continuous model?
+
+
+Discrete
+Continuous
+unanswered
+Let's say you run a stochastic simulation 100 times. How many times do you need to run the simulation again to get the same result?
+
+
+1 time
+99 times
+100 times
+101 times
+All of the above will give you the same result.
+None will necessarily give you the same result. correct
+unanswered
+Which modelling system would be best to model a bank account?
+
+
+Discrete
+Continuous
+Either discrete or continuous would work, depending on the specifics of the model you wish to use.
+unanswered
+ Submit Some problems have options such as save, reset, hints, or show answer. These options follow the Submit button.

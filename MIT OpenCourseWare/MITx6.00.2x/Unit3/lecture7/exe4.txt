@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 18 20:49:31 2019
+
+@author: yuhan
+"""
+
+Exercise 4
+ Bookmark this page
+Exercise 4
+3 points possible (graded)
+The coefficient of variation is the standard deviation divided by the mean. Loosely, it's a measure of how variable the population is in relation to the mean.
+
+Figure 1 shows the skyline of Pythonland, and Figure 2 shows the skyline of Montyland.
+
+histogram with 4 bars, heights h1, h2, h3, h4 histogram with 4 bars, heights relative to previous graph, but are smaller
+Considering the heights of buildings in Pythonland and Montyland, which has a larger coefficient of variation?
+
+
+Pythonland
+Montyland correct
+unanswered
+Explanation:
+
+Both have the same standard deviation (the heights are just shifted, which means the means are different, but the standard deviation is the same).
+
+Montyland's buildings are short, but Pythonland's buildings are tall. So the coefficient of variation for Pythonland and Montyland have the same numerator, but a large denominator for Pythonland, and a small one for Montyland. That makes Montyland's coefficient of variation larger.
+
+Which of the following populations has the highest coefficient of variation?
+
+
+[1, 2, 3] correct
+[11, 12, 13]
+[0.1, 0.1, 0.1]
+unanswered
+Explanation:
+
+Both A and B have the same standard deviation, but B has a larger mean. So, A has a higher coefficient of variation. Despite having the smallest mean, C has a standard deviation of 0, and so its coefficient of variation is 0 as well.
+
+Compute the coefficient of variation of [10, 4, 12, 15, 20, 5] to 3 decimal places.
+
+1.233
+  unanswered  .503

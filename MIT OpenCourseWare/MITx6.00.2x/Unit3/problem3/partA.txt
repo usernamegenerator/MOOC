@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 26 21:39:39 2019
+
+@author: yuhan
+"""
+
+Part A
+0.0/8.0 points (graded)
+Part A: probabilities
+This part of the problem set involves some pencil-and-paper exercises. It will help you practice and understand simple probability and statistics.
+
+Let's say Alvin will catch the flu with probability of 1/10 during any given month. Let's also assume that Alvin can catch the flu only once per month, and that if he has caught the flu, the flu virus will die by the end of the month. What is the probability of the following events?
+
+Answer each question in reduced fraction form - eg 1/5 instead of 2/10.
+
+He catches the flu in September, October and November.
+  unanswered  1/1000
+  1/10*1/10*1/10
+He catches the flu in September and then again in November, but not in October.
+  unanswered  9/1000
+  1/10*9/10*1/10
+He catches the flu exactly once in the three months from September through November.
+  unanswered  243/1000
+  c31*1/10*9/10*9/10
+He catches the flu in two or more of the three months from September through November.
+  unanswered  7/250
+  c32*1/10*1/10*9/10 + c33*1/10*1/10*1/10

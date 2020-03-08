@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 11 22:18:27 2019
+
+@author: yuhan
+"""
+
+Exercise 7
+5 points possible (graded)
+You pick three balls in succession out of a bucket of 3 red balls and 3 green balls. Assume replacement after picking out each ball. What is the probability of each of the following events?
+
+Three red balls: A : {R,R,R}. Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/8
+  unanswered  1/8
+The sequence red, green, red: A : {R,G,R}. Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/8
+  unanswered  1/8
+Any sequence with 2 reds and 1 green. Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+3/8
+  unanswered  3/8
+Any sequence where the number of reds is greater than or equal to the number of greens. Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/2
+  unanswered  1/2
+You have a bucket with 3 red balls and 3 green balls. This time, assume you don't replace the ball after taking it out. What is the probability of drawing 3 balls of the same color? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/10
+  unanswered  1/10
+Explanation:
+
+The probability of drawing a red ball is 1/2, so the probability of drawing 3 is (1/2)**3 = 1/8.
+P({R, G, R}) = 1/2 * 1/2 * 1/2 = 1/8
+P({R, R, G}) + P({R, G, R}) + P({G, R, R}) = 1/8 + 1/8 + 1/8 = 3/8
+P({R, R, G}) + P({R, G, R}) + P({G, R, R}) + P({R, R, R}) = 1/8 + 1/8 + 1/8 + 1/8 = 4/8 = 1/2
+In this problem, we don't assume the balls are replaced after being drawn. This changes the probability because with every draw, there is one less ball to pick from. The probability of drawing three red balls is 3/6 * 2/5 * 1/4 -- for the first pick, there are three red balls available and six balls total. For the second pick, if we picked a red ball first, there are now two red balls available and five balls total. For the third pick, if both the first and second picks were red balls, there is now one red ball available and four balls total. Multiply together to get P({R, R, R}) = 1/20.
+However the problem asked to find the probability of drawing 3 balls of the same color. Thus this probability is P({R, R, R}) + P({G, G, G}). The above analysis works for green balls as well, thus P({R, R, R}) + P({G, G, G}) = 1/20 + 1/20 = 2/20 = 1/10.

@@ -1,0 +1,63 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 18 17:10:26 2019
+
+@author: yuhan
+"""
+
+Exercise 2
+ Bookmark this page
+Exercise 2
+5 points possible (graded)
+For the questions below, please try to think about the solution in your head before using an IDE or a calculator to compute it. The goal of these questions is to give you some intuition about the topics we've been discussing.
+
+Which of the following populations has the largest variance?
+
+
+[0, 1, 2, 3, 4, 5, 6]
+[3, 3, 3, 3, 3, 3, 3]
+[0, 0, 0, 3, 6, 6, 6] correct
+unanswered
+Explanation:
+
+In all three sequences, the mean is 3, but the elements in C are, on average, farther away from the mean, so it has the largest variance.
+
+Which of the following populations has the largest variance?
+
+
+[3, 3, 5, 7, 7]
+[1, 5, 5, 5, 9] correct
+unanswered
+Explanation:
+
+In both A and B, the sum of the absolute difference is 8 (A: 5-3 + 5-3 + 5-5 + 7-5 + 7-5 = 8; B: 5-1 + 5-5 + 5-5 + 5-5 + 9-5 = 8), but the variance is computed by taking the square of the difference - A: (5-3)^2 + (5-3)^2 + (5-5)^2 + (7-5)^2 + (7-5)^2 = 4 + 4 + 0 + 4 + 4 = 16; B: (1-5)^2 + (5-5)^2 + (5-5)^2 + (5-5)^2 + (9-5)^2 = 16 + 0 + 0 + 0 + 16 = 32.
+
+So they both have the same average absolute value deviation, but in B, the variance is higher.
+
+If a number is removed from a population, the standard deviation of that population will always decrease.
+
+
+True
+False correct
+unanswered
+Explanation:
+
+Consider the population [1, 3, 5, 7, 9]. Removing 5 will increase the standard deviation.
+
+You are taking samples of the ages of two populations, A and B. Population A is all the residents of San Francisco, while Population B is all the residents of Los Angeles.
+
+The sample from Population A has a mean of 35 and a standard deviation of 1. The sample from Population B has a mean of 45 and a standard deviation of 15. Which of the following are certain?
+
+
+You will not find an individual in Population A that is over the age of 37.
+The average age of Population A is lower than the average age of Population B.
+The average age of the sample of Population A is lower than the average age of the sample of Population B. correct
+If the sample size of each population is 10, then you can conclude that your sample accurately represents the population.
+A sample size of 1 million is more appropriate than a sample size of 10 for these populations. correct
+unanswered
+The 95% confidence interval for a normal distribution of data with a mean of 5 and a standard deviation of 2 is 5 +/- ________
+
+4
+  unanswered  3.92
+ 
+We accept answers between 2*1.96 = 3.92 and 2*2 = 4

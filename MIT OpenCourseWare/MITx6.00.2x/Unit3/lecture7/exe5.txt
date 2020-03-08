@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 18 21:16:20 2019
+
+@author: yuhan
+"""
+
+Exercise 5
+8 points possible (graded)
+In the lecture, you saw a uniform and a normal distribution. There is another type of distribution, called an exponential distribution. For the following real-life situations, fill in the blank with the appropriate distribution model (normal, uniform, or exponential) that would best simulate the situation.
+
+Rolling a fair 6-sided die
+
+ unsubmitted  uniform
+Sum of rolling 2 fair 6-sided dice
+
+ unsubmitted  normal
+Women's shoe sizes
+
+ unsubmitted  normal
+Human intelligence (IQ) scores
+
+ unsubmitted  normal
+Amount of mold on bread, assuming an infinite supply of bread
+
+ unsubmitted  exponential
+The winning lottery numbers
+
+ unsubmitted  uniform
+Skilled person throwing darts at a dart board
+
+ unsubmitted  normal
+Radioactive decay (time between successive atom decays)
+
+ unsubmitted  exponential

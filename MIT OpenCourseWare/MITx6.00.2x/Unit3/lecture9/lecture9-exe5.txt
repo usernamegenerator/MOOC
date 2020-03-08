@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 26 21:35:30 2019
+
+@author: yuhan
+"""
+
+Exercise 5
+ Bookmark this page
+Exercise 5
+3 points possible (graded)
+You are given two data files. Each file contains 1800 data points measuring the heart rate (in beats per minute, every 0.5 seconds) of a subject prforming comparable activities for the duration of 15 minutes: hr1.txt and hr2.txt. The data is plotted in the figures below. (note that the data is taken from the MIT-BIH Database)
+
+graph with xaxis label (time sec*2) and yaxis label (heart rate bpm) and noisy jagged graph around y=90 and from x=0 to x=1750graph with xaxis label (time sec*2) and yaxis label (heart rate bpm) and graph with frequency of 100 around y=90 and from x=0 to x=1750
+Using a sample size of 250, decide whether the following methods of drawing samples will yield samples where the examples are independent of each other.
+
+Using random.sample
+
+Examples are independent in hr1 sample. correct
+Examples are independent in hr2 sample. correct
+unanswered
+Getting a random number between 1 and 1800, 250 times.
+
+Examples are independent in hr1 sample.
+Examples are independent in hr2 sample.
+Neither h1 nor h2 give independent examples. correct
+unanswered
+This method might get repeat values because it it performing selection with replacement
+
+Starting at the first example and going until the 500th example.
+
+Examples are independent in hr1 sample.
+Examples are independent in hr2 sample.
+Neither h1 nor h2 give independent examples. correct
+unanswered
+Looking at the data in h1, you can see that the samples from 0 to 250 are higher than the examples between 250 and 500. In the hr2 data, the examples occur with a frequency of 125, so taking the first 250 and then the next 250 will give almost the same average but the standard deviation will be different.
+
+ Submit Some problems have options such as save, reset, hints, or show answer. These options follow the Submit button.

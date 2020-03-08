@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 11 21:47:47 2019
+
+@author: yuhan
+"""
+
+Exercise 5
+10 points possible (graded)
+In this problem, we're going to calculate some probabilities of dice rolls. Imagine you have two fair four-sided dice (if you've never seen one, here's a picture. The result, a number between 1 and 4, is displayed at the top of the die on each of the 3 visible sides). 'Fair' here means that there is equal probability of rolling any of the four numbers.
+
+You can answer the following questions in one of two ways - you can calculate the probability directly, or, if you're having trouble, you can simply write out the entire sample space for the problem. A sample space is defined as a listing of all possible outcomes of a problem, and it can be written in many ways - a tree or a grid are popular options. For example, here is a diagram of the sample space for 3 coin tosses.
+
+Some vocabulary before we begin: an event is a subset of the sample space, or, a collection of possible outcomes. A probability function assigns an event, A, a probability P(A) that represents the likelihood of event A occuring.
+
+As an example, let's say we flip a coin. Define the event H as the event that the coin comes up heads. We can assign the probability P(H) = 1/2; the likelihood that event H occurs.
+
+The following problems will ask for the probability that a given event occurs.
+
+What is the size of the sample space for one roll of a four sided die?
+
+
+4
+  unanswered  4
+What is the size of the sample space for two rolls of a four sided die?
+
+
+16
+  unanswered  16
+Assume we roll 2 four sided dice. What is P({sum of the rolls is even})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/2
+  unanswered  1/2
+Assume we roll 2 four sided dice. What is P({rolling a 2 followed by a 3})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/16
+  unanswered  1/16
+Assume we roll 2 four sided dice. What is P({rolling a 2 and a 3, in any order})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/8
+  unanswered  1/8
+Assume we roll 2 four sided dice. What is P({sum of the rolls is odd})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/2
+  unanswered  1/2
+Assume we roll 2 four sided dice. What is P({first roll equal to second roll})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+1/4
+  unanswered  1/4
+Assume we roll 2 four sided dice. What is P({first roll larger than second roll})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+3/8
+  unanswered  3/8
+Assume we roll 2 four sided dice. What is P({at least one roll is equal to 4})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+7/16
+  unanswered  7/16
+Assume we roll 2 four sided dice. What is P({neither roll is equal to 4})? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+
+9/16
+  unanswered  9/16
+Explanation:
+
+Here is a visual representation of the sample space for 2 rolls of a four sided die. The left represents the 16 outcomes as a 2D grid; the right represents the outcomes as a tree, where each tree path represents one possible outcome.
+
+
+Each of the 16 outcomes in the sample space has equal probability (1/16) of occuring. So, for all of the above questions, you could simply use the visual representations to count up your answers. However, for large sample spaces this isn't feasible and it is instead better to be able to calculate the answers directly. So let's take a look at how to do that.
+
+What is the size of the sample space for one roll of a four sided die? 4
+
+What is the size of the sample space for two rolls of a four sided die? 4**2 = 16
+
+P({sum of the rolls is even}) = 8/16 = 1/2
+
+P({rolling a 2 followed by a 3}) = P({2, 3}) = 1/16
+
+P({rolling a 2 and a 3}) = P({2, 3}) + P({3, 2}) = 1/16 + 1/16 = 2/16 = 1/8
+
+P({sum of the rolls is odd}) = 8/16 = 1/2
+
+P({first roll equal to second roll}) = P({both 1}) + P({both 2}) + P({both 3}) + P({both 4}) = 1/16 + 1/16 + 1/16 + 1/16 = 4/16 = 1/4. Another way of thinking about this is that it doesn't matter what the first roll is, just that the second roll matches it. So, the probability of that event is (4/4) * (1/4) = 1/4: 4/4 for the first roll (we don't care what it is), times 1/4 chance that the second roll matches the first roll.
+
+P({first roll larger than second}) = P({4, <1, 2, 3>}) + P({3, <1, 2>}) + P({2, 1}) = 3/16 + 2/16 + 1/16 = 6/16 = 3/8
+
+P({at least one roll equal to 4}) = P({4, <1, 2, 3>}) + P({<1, 2, 3>, 4}) + P({4, 4}) = 3/16 + 3/16 + 1/16= 7/16
+
+P({nether roll is equal to 4}) = 1 - P({at least one roll equal to 4}) = 1 - 7/16 = 9/16

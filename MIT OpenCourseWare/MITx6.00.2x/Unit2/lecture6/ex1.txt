@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 12 22:51:20 2019
+
+@author: yuhan
+"""
+
+Exercise 1
+3 points possible (graded)
+1. Would placing the drunk's starting location not at the origin change the distances returned?
+
+
+Yes
+No correct
+unanswered
+Explanation:
+
+No, walk uses the starting location of where the drunk is at the start, not the actual origin.
+
+If so, what line would you modify to compensate? Enter the line number (eg 17). If not, just type None.
+
+1. def simWalks(numSteps, numTrials, dClass):
+2.     homer = UsualDrunk()
+3.     notOrigin = Location(1, 0)
+4.     distances = []
+5.     for t in range(numTrials):
+6.         f = Field()
+7.         f.addDrunk(homer, notOrigin)
+8.         distances.append(round(walk(f, homer, numSteps), 1))
+9.     return distances
+
+None
+  unanswered  None
+2. If you were going to use random.seed in a real-life simulation instead of just when you are debugging a simulation, would you want to seed it with 0?
+
+
+Yes
+No correct
+unanswered
+Explanation:
+
+No; by using random.seed, you create a deterministic simulation rather than a stochastic simulation. You should never use random.seed in a real-life situation, regardless of the seed value!

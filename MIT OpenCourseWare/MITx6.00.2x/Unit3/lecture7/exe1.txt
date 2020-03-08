@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+Exercise 1
+ Bookmark this page
+Exercise 1
+3 points possible (graded)
+A fair two-sided coin is flipped 4 times. It comes up heads all four times. What is the probability that it comes up heads on the fifth flip? Answer in reduced fraction form - eg 1/5 instead of 2/10.
+
+1/2
+  unanswered  1/2
+Explanation:
+
+Answer: 1/2 - Previous tosses don't influence the result of the next toss.
+
+A fair two-sided coin is flipped 1000 times. It comes up heads every time. Which is correct?
+
+
+Regression to the mean tells us that the next 1000 tosses will be almost all tails.
+Regression to the mean tells us that the next few tosses will be not as extreme as the first 1000. correct
+unanswered
+Next we toss a huge ball with 1,000 dots on it. Half the dots are red and the other half are blue. We roll the ball and when it stops, we note the color of the dot on the very top of the ball.
+
+True or False? If we roll it four times, and it comes up red once and blue three times, then we have proved that the ball is biased.
+
+
+True
+False correct
+unanswered
+Explanation:
+
+Answer: False - We don't know if it is a fair or biased ball at this point; the sample size is too small.

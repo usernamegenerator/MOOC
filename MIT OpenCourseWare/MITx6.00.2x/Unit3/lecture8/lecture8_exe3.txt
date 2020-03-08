@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Feb 23 18:09:56 2019
+
+@author: yuhan
+"""
+
+Exercise 3
+ Bookmark this page
+Exercise 3
+2 points possible (graded)
+If you remember the Buffon Needle Problem, the ratio of the areas of a circle and a square are used to estimate the value of  by dropping needles onto the shapes, like so:
+
+We can imagine that using different area ratios results in the estimation of different constants.
+
+In the following boxes, you will be asked to enter in mathematical expressions. To enter in addition, multiplication, subtraction, or division, use the operators: +, *, -, /. To enter in exponentiation, use the caret (^) key. To enter in the constant , simply type pi.
+
+What constant can you estimate using the following picture?
+
+ rectangle height 1 and length 2 with th ebottom half of a semicircle transcibed in it
+
+pi/2
+  unanswered  pi/2
+ 
+Download the code used in the lecture "Finding Pi". If we now want to estimate the constant from the picture above, what should the number '4' in the line: return 4*(inCircle/float(numNeedles)) be changed to?
+
+2
+  unanswered  2
+ 
+Explanation:
+
+There are only two quadrants you want to count in the estimate of the constant, and the operation (inCircle/numNeedles) only counts needles dropped in one quadrant of the circle.

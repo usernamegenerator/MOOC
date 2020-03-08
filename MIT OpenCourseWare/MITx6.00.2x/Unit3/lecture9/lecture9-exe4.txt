@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 26 21:33:44 2019
+
+@author: yuhan
+"""
+
+Exercise 4
+ Bookmark this page
+Exercise 4
+3 points possible (graded)
+Ace, Bree, and Chad are each tasked with finding the standard error for three different problems. Each person only has a sample size of 100 data points for each of their problem.
+
+Ace: the winning bonus number in the lottery
+Bree: the average women's shoe size
+Chad: the number of mold bacteria on bread over time
+
+Which person's sample standard deviation will be the closest to the actual population standard deviation?
+
+Ace correct
+Bree
+Chad
+unanswered
+Which person's sample standard deviation will be the farthest to the actual population standard deviation?
+
+Ace
+Bree
+Chad correct
+unanswered
+Now suppose Chad used a sample size of 10,000 instead of 100 but the other two people still use a sample size of 100. Mark all that are correct.
+
+The difference between the sample standard deviation and actual population standard deviation for the mold problem decreases. correct
+The difference between the sample standard deviation and actual population standard deviation for the mold problem is now less than the difference between the sample standard deviation and actual population standard deviation for the shoe problem.
+difference between the sample standard deviation and actual population standard deviation for the mold problem is now less than the difference between the sample standard deviation and actual population standard deviation for the lottery problem.
+unanswered
+Explanation
+
+Q1 and Q2: The lottery problem is a uniform distribution. The shoe problem is a normal distribution. The mold problem is an exponential distribution. The skew for the uniform distribution is the smallest and the skew for the exponential distribution is the largest.
+
+Q3: The more samples you take, you will get closer to the actual population, so the difference in stddevs decreases. Without knowing exactly how to model the curves of the difference in sample stddev and the population stddev, you can't tell how the mold stddev difference behaves relative to the shoe and lottery stddevs.
