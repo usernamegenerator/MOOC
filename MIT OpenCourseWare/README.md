@@ -10,11 +10,11 @@ https://ocw.mit.edu/index.htm
 6.046J	Design and Analysis of Algorithms	Undergraduate   
 6.046J	Introduction to Algorithms (SMA 5503)	  
 6.073J	Creating Video Games  
-6.087	Practical Programming in C	Undergraduate  
-6.088	Introduction to C Memory Management and C++ Object-Oriented Programming	Undergraduate   
+~~6.087	Practical Programming in C	Undergraduate~~  
+~~6.088	Introduction to C Memory Management and C++ Object-Oriented Programming	Undergraduate~~   
 6.092	Introduction to Programming in Java	Undergraduate   
 6.092	Java Preparation for 6.170	Undergraduate   
-6.096	Introduction to C++   
+~~6.096	Introduction to C++~~   
 6.170	Software Studio	Undergraduate   
 6.170	Laboratory in Software Engineering	Undergraduate   
 6.171	Software Engineering for Web Applications	Undergraduate   
